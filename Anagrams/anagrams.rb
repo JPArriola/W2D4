@@ -19,3 +19,7 @@ def second_anagram?(string1, string2)
   string2_arr.empty?
     
 end
+
+def third_anagram?(string1, string2)
+  string1.chars.sort.join == string2.chars.sort.join
+end
