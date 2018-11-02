@@ -22,13 +22,3 @@ def okay_two_sum?(arr, target)
   end
   false
 end
-  
-  
-
-
-
-
-
-# arr = [0, 1, 5, 7]
-# bf_two_sum?(arr, 6) # => should be true
-# bf_two_sum?(arr, 10)
